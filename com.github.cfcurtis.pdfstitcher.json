@@ -54,7 +54,7 @@
             "sources": [
                 {
                   "type": "file",
-                  "url": "https://github.com/cfcurtis/pdfstitcher/archive/refs/tags/v0.5.zip",
+                  "url": "https://github.com/cfcurtis/pdfstitcher/archive/refs/tags/v0.5.2.zip",
                   "sha256": "77cd9f3d1e4559e8ea8d3c27fb36a7dcee8824d69d0f6457fb9b2a2c395909c8",
                   "dest-filename": "pdfstitcher.zip"
                 },
