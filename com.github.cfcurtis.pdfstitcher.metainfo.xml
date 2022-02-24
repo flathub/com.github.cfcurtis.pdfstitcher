@@ -35,9 +35,9 @@
   <update_contact>nbenitezl_AT_gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release version="0.5" date="2021-10-04">
-    <description>0.5 release</description>
-    <url>https://www.pdfstitcher.org/v0.5-release/</url>
+    <release version="0.5.2" date="2022-02-24">
+    <description>0.5.2 release</description>
+    <url>https://github.com/cfcurtis/pdfstitcher/releases/tag/v0.5.2/url>
     </release>
   </releases>
 </component>
