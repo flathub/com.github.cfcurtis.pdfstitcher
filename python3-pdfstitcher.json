@@ -2,6 +2,7 @@
     "name": "python3-pdfstitcher",
     "buildsystem": "simple",
     "build-commands": [
+        "install -Dm644 pdfstitcher.svg /app/share/icons/hicolor/scalable/apps/com.github.cfcurtis.pdfstitcher.svg",
         "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pdfstitcher\" --no-build-isolation"
     ],
     "post-install": [
@@ -53,6 +54,12 @@
                 "type": "pypi",
                 "name": "pdfstitcher"
             }
+        },
+        {
+            "type": "file",
+            "url": "https://raw.githubusercontent.com/cfcurtis/pdfstitcher/v0.5/resources/stitcher-icon.svg",
+            "sha256": "6e97f263a6dfa5c94dfcffe10614ea407bcc581514e25e22cbb6d77ed91abe8a",
+            "dest-filename": "pdfstitcher.svg"
         },
         {
             "type": "file",
