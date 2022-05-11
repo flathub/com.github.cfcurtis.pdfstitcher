@@ -11,7 +11,11 @@
         {
             "type": "archive",
              "url": "https://files.pythonhosted.org/packages/b4/a5/6487992141abc6133a1c59ca7389d761177f156b00364b79199d1c3307c0/pikepdf-4.4.1.tar.gz",
-             "sha256": "c25d4c7673f9588d1f98bca498db98ba675070dc89ffffe50b3b124d4a005df9"
+             "sha256": "c25d4c7673f9588d1f98bca498db98ba675070dc89ffffe50b3b124d4a005df9",
+             "x-checker-data": {
+                 "type": "pypi",
+                 "name": "pikepdf"
+             }
         }
     ],
     "modules": [
@@ -23,7 +27,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-10.5.0/qpdf-10.5.0.tar.gz",
-                    "sha256": "88257d36a44fd5c50b2879488324dd9cafc11686ae49d8c4922a4872203ce006"
+                    "sha256": "88257d36a44fd5c50b2879488324dd9cafc11686ae49d8c4922a4872203ce006",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 5542,
+                        "stable-only": true,
+                        "url-template": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-$version/qpdf-$version.tar.gz"
+                    }            
                 }
             ]
         }
