@@ -4,6 +4,10 @@
     "build-commands": [
         "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pdfstitcher\" --no-build-isolation"
     ],
+    "post-install": [
+        "desktop-file-install --dir=/app/share/applications com.github.cfcurtis.pdfstitcher.desktop",
+        "install -Dm644 com.github.cfcurtis.pdfstitcher.metainfo.xml /app/share/metainfo/com.github.cfcurtis.pdfstitcher.metainfo.xml"
+    ],
     "sources": [
         {
             "type": "file",
