@@ -53,6 +53,14 @@
                 "type": "pypi",
                 "name": "pdfstitcher"
             }
+        },
+        {
+            "type": "file",
+            "path": "com.github.cfcurtis.pdfstitcher.metainfo.xml"
+        },
+        {
+            "type": "file",
+            "path": "com.github.cfcurtis.pdfstitcher.desktop"
         }
     ]
 }
