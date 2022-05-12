@@ -1,7 +1,9 @@
 {
     "name": "python3-pikepdf",
     "buildsystem": "simple",
-    "build-commands": ["python3 setup.py install --prefix=/app --root=/"],
+    "build-commands": [
+        "python3 setup.py install --prefix=/app --root=/"
+    ],
     "build-options": {
         "env": {
             "SETUPTOOLS_USE_DISTUTILS": "stdlib"
@@ -10,12 +12,12 @@
     "sources": [
         {
             "type": "archive",
-             "url": "https://files.pythonhosted.org/packages/b4/a5/6487992141abc6133a1c59ca7389d761177f156b00364b79199d1c3307c0/pikepdf-4.4.1.tar.gz",
-             "sha256": "c25d4c7673f9588d1f98bca498db98ba675070dc89ffffe50b3b124d4a005df9",
-             "x-checker-data": {
-                 "type": "pypi",
-                 "name": "pikepdf"
-             }
+            "url": "https://files.pythonhosted.org/packages/16/6e/6bf0394988167e39ce152c0d44949f2ff4fe040ceef8fdd9ef63971f337e/pikepdf-5.1.2.tar.gz",
+            "sha256": "dfa89bd86e01413531c1d7d201fb01f0e62b52ea926a8e8ca6f99f86ed761e95",
+            "x-checker-data": {
+                "type": "pypi",
+                "name": "pikepdf"
+            }
         }
     ],
     "modules": [
@@ -26,14 +28,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-10.5.0/qpdf-10.5.0.tar.gz",
-                    "sha256": "88257d36a44fd5c50b2879488324dd9cafc11686ae49d8c4922a4872203ce006",
+                    "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-10.6.3/qpdf-10.6.3.tar.gz",
+                    "sha256": "e8fc23b2a584ea68c963a897515d3eb3129186741dd19d13c86d31fa33493811",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5542,
                         "stable-only": true,
                         "url-template": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-$version/qpdf-$version.tar.gz"
-                    }            
+                    }
                 }
             ]
         }
