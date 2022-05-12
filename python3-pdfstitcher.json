@@ -30,8 +30,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/60/2e/dec1cc18c51b8df33c7c4d0a321b084cf38e1733b98f9d15018880fb4970/pytz-2022.1-py2.py3-none-any.whl",
-            "sha256": "e68985985296d9a66a881eb3193b0906246245294a881e7c8afe623866ac6a5c",
+            "url": "https://files.pythonhosted.org/packages/2f/5f/a0f653311adff905bbcaa6d3dfaf97edcf4d26138393c6ccd37a484851fb/pytz-2022.1.tar.gz",
+            "sha256": "1e760e2fe6a8163bc0b3d9a19c4f84342afa0a2affebfaa84b01b978a02ecaa7",
             "x-checker-data": {
                 "type": "pypi",
                 "name": "pytz"
@@ -39,8 +39,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c5/7b/2c9fc1e18cb97676c7bedaa872447eb720e0c6e0e48190b4fba7eccdc1a8/Babel-2.10.1-py3-none-any.whl",
-            "sha256": "3f349e85ad3154559ac4930c3918247d319f21910d5ce4b25d439ed8693b98d2",
+            "url": "https://files.pythonhosted.org/packages/23/a6/a616817c8e4fb1a69f7e8aae9fc7fce1a147e1a492f45b6fa0b7d6823178/Babel-2.10.1.tar.gz",
+            "sha256": "98aeaca086133efb3e1e2aad0396987490c8425929ddbcfe0550184fdc54cd13",
             "x-checker-data": {
                 "type": "pypi",
                 "name": "Babel"
@@ -48,8 +48,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7e/e9/143c018cefcea5b6660489f2d11ac53f108e2b0c5873913a3ed66a0b329e/pdfstitcher-0.6.1-py3-none-any.whl",
-            "sha256": "afd4969b21d86f00bc734c6ecac9fdc1bf93119be89a7b6b926f699ef5f9844f",
+            "url": "https://files.pythonhosted.org/packages/c7/ef/bd250ad8c6d1483cd08365635459a464834021870a01f0c17b94f7446915/pdfstitcher-0.6.2.tar.gz",
+            "sha256": "187d5954b3a5808d9684ca435ab19776f866753e12399cdaaad307b8cbeffac9",
             "x-checker-data": {
                 "type": "pypi",
                 "is-main-source": true,
