@@ -52,6 +52,7 @@
             "sha256": "afd4969b21d86f00bc734c6ecac9fdc1bf93119be89a7b6b926f699ef5f9844f",
             "x-checker-data": {
                 "type": "pypi",
+                "is-main-source": true,
                 "name": "pdfstitcher"
             }
         },
