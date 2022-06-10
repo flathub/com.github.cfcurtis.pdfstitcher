@@ -12,8 +12,8 @@
     "sources": [
         {
             "type": "archive",
-            "url": "https://files.pythonhosted.org/packages/c0/70/ae564e26cf53c7980c7b64e647628ce417262a42434b8fc5f25231550e80/pikepdf-5.1.4.tar.gz",
-            "sha256": "a740c0c14c8bb05221d6d7f87d20f186f50907b2b114531177b0d5733d6c01fd",
+            "url": "https://files.pythonhosted.org/packages/6a/4b/5f456ff997f66e4ec6eb53b32c3db2b9fd03889e9768619cc3d6e5ed767f/pikepdf-5.1.5.tar.gz",
+            "sha256": "0af747f989d0de8302e6e58e3da4c38d230bad6138b1cbb8dc6838e16285e63f",
             "x-checker-data": {
                 "type": "pypi",
                 "name": "pikepdf"
