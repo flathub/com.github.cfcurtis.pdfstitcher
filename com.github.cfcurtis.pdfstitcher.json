@@ -17,7 +17,7 @@
     ],
     "modules": [
         "python3-pikepdf.json",
-    	"python3-pdfstitcher-deps.json",
+        "python3-pdfstitcher-deps.json",
         {
             "name": "python3-pdfstitcher",
             "buildsystem": "simple",
@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c7/ef/bd250ad8c6d1483cd08365635459a464834021870a01f0c17b94f7446915/pdfstitcher-0.6.2.tar.gz",
-                    "sha256": "187d5954b3a5808d9684ca435ab19776f866753e12399cdaaad307b8cbeffac9",
+                    "url": "https://files.pythonhosted.org/packages/e0/53/797d3fcd6b8a13cb3b1f29e194a4b97a59d4b7587efad1bda4acb7f734da/pdfstitcher-0.7.tar.gz",
+                    "sha256": "86481630337533d6d02a4acd410dc8398b8106124b5df3c9fd5c1a8fdb73404e",
                     "x-checker-data": {
                         "type": "pypi",
                         "is-main-source": true,
