@@ -34,7 +34,8 @@
                     "sha256": "00e5e3180ac7f2852f342ad341d57c44e7e4326de0b550b9a5c4a8361b6c3528",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "wxPython"
+                        "name": "wxPython",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
@@ -52,7 +53,8 @@
                     "sha256": "1e760e2fe6a8163bc0b3d9a19c4f84342afa0a2affebfaa84b01b978a02ecaa7",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "pytz"
+                        "name": "pytz",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
@@ -70,7 +72,8 @@
                     "sha256": "7614553711ee97490f732126dc077f8d0ae084ebc6a96e23db1482afabdb2c51",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "Babel"
+                        "name": "Babel",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
