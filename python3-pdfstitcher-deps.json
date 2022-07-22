@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f6/d8/ab692a75f584d13c6542c3994f75def5bce52ded9399f52e230fe402819d/numpy-1.22.4.zip",
-                    "sha256": "425b390e4619f58d8526b3dcf656dde069133ae5c240229821f01b5f44ea07af",
+                    "url": "https://files.pythonhosted.org/packages/13/b1/0c22aa7ca1deda4915cdec9562f839546bb252eecf6ad596eaec0592bd35/numpy-1.23.1.tar.gz",
+                    "sha256": "d748ef349bfef2e1194b59da37ed5a29c19ea8d7e6342019921ba2ba4fd8b624",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "numpy"
@@ -34,7 +34,8 @@
                     "sha256": "00e5e3180ac7f2852f342ad341d57c44e7e4326de0b550b9a5c4a8361b6c3528",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "wxPython"
+                        "name": "wxPython",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
@@ -52,7 +53,8 @@
                     "sha256": "1e760e2fe6a8163bc0b3d9a19c4f84342afa0a2affebfaa84b01b978a02ecaa7",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "pytz"
+                        "name": "pytz",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
@@ -70,7 +72,8 @@
                     "sha256": "7614553711ee97490f732126dc077f8d0ae084ebc6a96e23db1482afabdb2c51",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "Babel"
+                        "name": "Babel",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
