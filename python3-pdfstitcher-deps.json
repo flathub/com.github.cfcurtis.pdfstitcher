@@ -4,6 +4,44 @@
     "build-commands": [],
     "modules": [
         {
+            "name": "python3-setuptools",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"setuptools\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/a4/53/bfc6409447ca024558b8b19d055de94c813c3e32c0296c48a0873a161cf5/setuptools-63.2.0-py3-none-any.whl",
+                    "sha256": "0d33c374d41c7863419fc8f6c10bfe25b7b498aa34164d135c622e52580c6b16",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "setuptools",
+                        "packagetype": "bdist_wheel",
+                        "versions": {">=": "60.0.0"}
+                    }
+                }
+            ]
+        },
+        {
+            "name": "python3-PyYAML",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyYAML\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/36/2b/61d51a2c4f25ef062ae3f74576b01638bebad5e045f747ff12643df63844/PyYAML-6.0.tar.gz",
+                    "sha256": "68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "PyYAML"
+                    }
+                }
+            ]
+        },
+        {
             "name": "python3-numpy",
             "buildsystem": "simple",
             "build-commands": [
@@ -34,7 +72,8 @@
                     "sha256": "00e5e3180ac7f2852f342ad341d57c44e7e4326de0b550b9a5c4a8361b6c3528",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "wxPython"
+                        "name": "wxPython",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
@@ -52,7 +91,8 @@
                     "sha256": "1e760e2fe6a8163bc0b3d9a19c4f84342afa0a2affebfaa84b01b978a02ecaa7",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "pytz"
+                        "name": "pytz",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
@@ -70,7 +110,8 @@
                     "sha256": "7614553711ee97490f732126dc077f8d0ae084ebc6a96e23db1482afabdb2c51",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "Babel"
+                        "name": "Babel",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
