@@ -18,7 +18,9 @@
                         "type": "pypi",
                         "name": "setuptools",
                         "packagetype": "bdist_wheel",
-                        "versions": {">=": "60.0.0"}
+                        "versions": {
+                            ">=": "60.0.0"
+                        }
                     }
                 }
             ]
@@ -87,8 +89,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/2f/5f/a0f653311adff905bbcaa6d3dfaf97edcf4d26138393c6ccd37a484851fb/pytz-2022.1.tar.gz",
-                    "sha256": "1e760e2fe6a8163bc0b3d9a19c4f84342afa0a2affebfaa84b01b978a02ecaa7",
+                    "url": "https://files.pythonhosted.org/packages/60/2e/dec1cc18c51b8df33c7c4d0a321b084cf38e1733b98f9d15018880fb4970/pytz-2022.1-py2.py3-none-any.whl",
+                    "sha256": "e68985985296d9a66a881eb3193b0906246245294a881e7c8afe623866ac6a5c",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pytz",
@@ -106,8 +108,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/51/27/81e9cf804a34a550a47cc2f0f57fe4935281d479ae3a0ac093d69476f221/Babel-2.10.3.tar.gz",
-                    "sha256": "7614553711ee97490f732126dc077f8d0ae084ebc6a96e23db1482afabdb2c51",
+                    "url": "https://files.pythonhosted.org/packages/2e/57/a4177e24f8ed700c037e1eca7620097fdfbb1c9b358601e40169adf6d364/Babel-2.10.3-py3-none-any.whl",
+                    "sha256": "ff56f4892c1c4bf0d814575ea23471c230d544203c7748e8c68f0089478d48eb",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "Babel",
