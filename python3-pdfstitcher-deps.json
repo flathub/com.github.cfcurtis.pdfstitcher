@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/98/71/6db7ed66f195e05baa1f13d0bf8d7a70a2db92f9bb2b2d138997d1429346/setuptools-64.0.1-py3-none-any.whl",
-                    "sha256": "7d9ae33bf128569f460a0745e87072a1996f33c9180316c20cc08b130ce816a6",
+                    "url": "https://files.pythonhosted.org/packages/e4/c3/2fe50dbd45118e02951d8f3207d738d68f271a728bdd33b3a117782692ef/setuptools-64.0.2-py3-none-any.whl",
+                    "sha256": "2fc6046e3cddf0ef48493410c18a3f0e4fc888b4460f35e07808591481cdc2ac",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools",
