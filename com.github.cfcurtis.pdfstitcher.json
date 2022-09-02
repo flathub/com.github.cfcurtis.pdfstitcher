@@ -1,7 +1,7 @@
 {
     "id": "com.github.cfcurtis.pdfstitcher",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "21.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "pdfstitcher",
     "finish-args": [
