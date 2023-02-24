@@ -4,28 +4,6 @@
     "build-commands": [],
     "modules": [
         {
-            "name": "python3-setuptools",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --ignore-installed --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"setuptools\" --no-build-isolation"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/86/7b/f35d72b7a6acbc27732e88d7ceb7f224b3e0683bf645e1c9e2ac2cd96c0d/setuptools-67.3.2-py3-none-any.whl",
-                    "sha256": "bb6d8e508de562768f2027902929f8523932fcd1fb784e6d573d2cafac995a48",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "setuptools",
-                        "packagetype": "bdist_wheel",
-                        "versions": {
-                            ">=": "60.0.0"
-                        }
-                    }
-                }
-            ]
-        },
-        {
             "name": "python3-PyYAML",
             "buildsystem": "simple",
             "build-commands": [
@@ -44,12 +22,39 @@
             ]
         },
         {
-            "name": "python3-numpy",
+            "name": "python3-attrdict3",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"numpy\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"attrdict3\" --no-build-isolation"
             ],
             "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/d7/3c/a7d33166f92b50ca0e154411c351430700c21d8115b93c515ae9137a91f6/attrdict3-2.0.2-py2.py3-none-any.whl",
+                    "sha256": "a98b72de6a3f20b0997cc7efbba3555af6558ed9a97de4468a3f81cac11595dc",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "attrdict3"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "python3-wxpython",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"wxpython\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/bc/07/830784e061fb94d67649f3e438ff63cfb902dec6d48ac75aeaaac7c7c30e/Pillow-9.4.0.tar.gz",
+                    "sha256": "a1c2d7780448eb93fbcc3789bf3916aa5720d942e37945f4056680317f1cd23e",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "Pillow"
+                    }
+                },
                 {
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/e4/a9/6704bb5e1d1d778d3a6ee1278a8d8134f0db160e09d52863a24edb58eab5/numpy-1.24.2.tar.gz",
@@ -58,24 +63,14 @@
                         "type": "pypi",
                         "name": "numpy"
                     }
-                }
-            ]
-        },
-        {
-            "name": "python3-wxPython",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"wxPython\" --no-build-isolation"
-            ],
-            "sources": [
+                },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b0/4d/80d65c37ee60a479d338d27a2895fb15bbba27a3e6bb5b6d72bb28246e99/wxPython-4.1.1.tar.gz",
-                    "sha256": "00e5e3180ac7f2852f342ad341d57c44e7e4326de0b550b9a5c4a8361b6c3528",
+                    "url": "https://files.pythonhosted.org/packages/d9/33/b616c7ed4742be6e0d111ca375b41379607dc7cc7ac7ff6aead7a5a0bf53/wxPython-4.2.0.tar.gz",
+                    "sha256": "663cebc4509d7e5d113518865fe274f77f95434c5d57bc386ed58d65ceed86c7",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "wxPython",
-                        "packagetype": "bdist_wheel"
+                        "name": "wxpython"
                     }
                 }
             ]
@@ -191,6 +186,54 @@
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "certifi",
+                        "packagetype": "bdist_wheel"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "python3-psutil",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"psutil\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/3d/7d/d05864a69e452f003c0d77e728e155a89a2a26b09e64860ddd70ad64fb26/psutil-5.9.4.tar.gz",
+                    "sha256": "3d7f9739eb435d4b1338944abe23f49584bde5395f27487d2ee25ad9a8774a62",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "psutil",
+                        "packagetype": "archive"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "python3-pdf-mangler",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pdf-mangler\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/47/bb/849011636c4da2e44f1253cd927cfb20ada4374d8b3a4e425416e84900cc/tqdm-4.64.1-py2.py3-none-any.whl",
+                    "sha256": "6fee160d6ffcd1b1c68c65f14c829c22832bc401726335ce92c52d395944a6a1",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "tqdm",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/f3/ee/7aa7420a6be86ae754428816bd12d7960243603d94c7df5773d8c25e84ed/pdf_mangler-0.1.3-py3-none-any.whl",
+                    "sha256": "03485a2ecec98e7b0a8dc30b672cb9b945428dae0f3e3777a079b2e12f3b56f7",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "pdf-mangler",
                         "packagetype": "bdist_wheel"
                     }
                 }

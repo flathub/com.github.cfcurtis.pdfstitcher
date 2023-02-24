@@ -24,16 +24,18 @@
         "python3-pikepdf-deps.json",
         {
             "name": "qpdf",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-10.6.3/qpdf-10.6.3.tar.gz",
-                    "sha256": "e8fc23b2a584ea68c963a897515d3eb3129186741dd19d13c86d31fa33493811",
-                    "x-checker-data": {
+                    "url": "https://github.com/qpdf/qpdf/releases/download/v11.2.0/qpdf-11.2.0.tar.gz",
+                    "sha256": "fbd2d75050933487929dbbe1b5c50a238487194bc7263c277d6e49abb90ab7f2",
+                    "x-checker-data": {     
                         "type": "anitya",
                         "project-id": 5542,
                         "stable-only": true,
-                        "url-template": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-$version/qpdf-$version.tar.gz"
+                        "url-template": "https://github.com/qpdf/qpdf/releases/download/$version/qpdf-$version.tar.gz"
                     }
                 }
             ]
