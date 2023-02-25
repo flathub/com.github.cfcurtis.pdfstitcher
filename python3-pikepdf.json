@@ -12,8 +12,8 @@
     "sources": [
         {
             "type": "archive",
-            "url": "https://files.pythonhosted.org/packages/52/1e/0b782b5de445e302434019da2eccb33f57eb27c771ea1dc53dd60bdaef67/pikepdf-5.6.1.tar.gz",
-            "sha256": "03fb70ff4fada9cba864d04033f4166b5bf7fa85c90cdc05afd0ab87c9ccaa1a",
+            "url": "https://files.pythonhosted.org/packages/bb/22/87185add91a015aaebe82a8f96c60c948a00f1ecf6e750b34cb4c368f162/pikepdf-7.1.1.tar.gz",
+            "sha256": "eb310e903b9a172de352446458390ccce31a2bb19a387f63d37b135cb4cca3f1",
             "x-checker-data": {
                 "type": "pypi",
                 "name": "pikepdf"
@@ -24,16 +24,18 @@
         "python3-pikepdf-deps.json",
         {
             "name": "qpdf",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-10.6.3/qpdf-10.6.3.tar.gz",
-                    "sha256": "e8fc23b2a584ea68c963a897515d3eb3129186741dd19d13c86d31fa33493811",
-                    "x-checker-data": {
+                    "url": "https://github.com/qpdf/qpdf/releases/download/v11.2.0/qpdf-11.2.0.tar.gz",
+                    "sha256": "fbd2d75050933487929dbbe1b5c50a238487194bc7263c277d6e49abb90ab7f2",
+                    "x-checker-data": {     
                         "type": "anitya",
                         "project-id": 5542,
                         "stable-only": true,
-                        "url-template": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-$version/qpdf-$version.tar.gz"
+                        "url-template": "https://github.com/qpdf/qpdf/releases/download/v$version/qpdf-$version.tar.gz"
                     }
                 }
             ]

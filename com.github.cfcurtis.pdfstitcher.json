@@ -1,7 +1,7 @@
 {
     "id": "com.github.cfcurtis.pdfstitcher",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "21.08",
+    "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "pdfstitcher",
     "finish-args": [
@@ -11,7 +11,7 @@
         "--filesystem=xdg-documents",
         "--filesystem=xdg-download",
         "--filesystem=xdg-pictures",
-        "--filesystem=xdg-cache",
+        "--filesystem=xdg-desktop",
         "--filesystem=/run/media",
         "--filesystem=/media"
     ],
@@ -21,14 +21,6 @@
         {
             "name": "python3-pdfstitcher",
             "buildsystem": "simple",
-            "ensure-writable": [
-                "/lib/python3.9/site-packages/setuptools.pth"
-            ],
-            "build-options": {
-                "env": {
-                    "PYTHONPATH": "/app/lib/python3.9/site-packages"
-                }
-            },
             "build-commands": [
                 "install -Dm644 pdfstitcher.svg /app/share/icons/hicolor/scalable/apps/com.github.cfcurtis.pdfstitcher.svg",
                 "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pdfstitcher\" --no-build-isolation"
@@ -40,8 +32,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/87/41/53deb303006b822a73bfca4a241dd718b3db586b86269fcb5a5cd6bca5f3/pdfstitcher-0.7.1.tar.gz",
-                    "sha256": "d4b7ff97e815e0ece9d16ec7198f43ba45eaa20dc4171960cecd8fadaa14b166",
+                    "url": "https://files.pythonhosted.org/packages/e2/d9/3beeba0fd4f668dcb8cf2d5730f04e78d8f45e33664cc488127c357fba15/pdfstitcher-0.8.tar.gz",
+                    "sha256": "46cef115ed5dc83cba3367c45bb4ad1498d57f09bba630ee0c4d721bbba99903",
                     "x-checker-data": {
                         "type": "pypi",
                         "is-main-source": true,
