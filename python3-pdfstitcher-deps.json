@@ -228,8 +228,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f3/ee/7aa7420a6be86ae754428816bd12d7960243603d94c7df5773d8c25e84ed/pdf_mangler-0.1.3-py3-none-any.whl",
-                    "sha256": "03485a2ecec98e7b0a8dc30b672cb9b945428dae0f3e3777a079b2e12f3b56f7",
+                    "url": "https://files.pythonhosted.org/packages/fc/bf/08143bf958a656e742a6c92e25b935814411839059ad69b07f839d63f627/pdf_mangler-0.1.4-py3-none-any.whl",
+                    "sha256": "ea373619d1298fb2c8e96df5a07e2965344cf5f63bf91a8538101be7990cbf3a",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pdf-mangler",
