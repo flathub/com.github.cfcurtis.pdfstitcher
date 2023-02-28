@@ -103,8 +103,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/92/f7/86301a69926e11cd52f73396d169554d09b20b1723a040c2dcc1559ef588/Babel-2.11.0-py3-none-any.whl",
-                    "sha256": "1ad3eca1c885218f6dce2ab67291178944f810a10a9b5f3cb8382a5a232b64fe",
+                    "url": "https://files.pythonhosted.org/packages/28/d8/74b2d68dea0eb112af778093a25f0e87f0a549deced0293cb782837cb99e/Babel-2.12.0-py3-none-any.whl",
+                    "sha256": "8f8b752c803e9f9e03ff219b644aceb0dbcf081c55a88ea11f86291e60a7bb68",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "Babel",
