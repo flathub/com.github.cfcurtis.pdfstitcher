@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/69/f1/3c2d322ee2dd0d956ecfe2a4df25afff62cf67e31334e39e9d614af42d3f/pdfstitcher-0.8.1.tar.gz",
-                    "sha256": "67eabad7ab2458d48e743a57cf396cd90b7a7a99910a2006f19285a4e92b70aa",
+                    "url": "https://files.pythonhosted.org/packages/0b/89/d1c8c9f799bbf3511bab42c4b0304e4401904748026f5e73d8d34cde9154/pdfstitcher-0.8.2.tar.gz",
+                    "sha256": "323ff395fddb0b22f5aaba1d29861e209b3944851782275e426dd06ccc32c7ba",
                     "x-checker-data": {
                         "type": "pypi",
                         "is-main-source": true,
