@@ -7,13 +7,7 @@
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
-        "--device=dri",
-        "--filesystem=xdg-documents",
-        "--filesystem=xdg-download",
-        "--filesystem=xdg-pictures",
-        "--filesystem=xdg-desktop",
-        "--filesystem=/run/media",
-        "--filesystem=/media"
+        "--filesystem=host"
     ],
     "modules": [
         "python3-pikepdf.json",
