@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/3f/35/7189a677393f32555d3574d131894b824ce277bd79e8e2bb3713e4c08c10/setuptools_scm_git_archive-1.4-py2.py3-none-any.whl",
-                    "sha256": "600cd90b420bec4802ce3843d5b52c9dc618fc7d9826e245f8d6f091c5944279",
+                    "url": "https://files.pythonhosted.org/packages/38/b3/529d516b25ec768b8ebc2df35785a50c90e481c80e2c0d6ce68c81d60afa/setuptools_scm_git_archive-1.4.1-py2.py3-none-any.whl",
+                    "sha256": "4a0b90286f469df220769a66ed1e910a11f524c61f3caa2cd4fad95750ac3b4f",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools_scm_git_archive",
@@ -68,8 +68,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl",
-                    "sha256": "440d5dd3af93b060174bf433bccd69b0babc3b15b1a8dca43789fd7f61514b36",
+                    "url": "https://files.pythonhosted.org/packages/24/21/7d397a4b7934ff4028987914ac1044d3b7d52712f30e2ac7a2ae5bc86dd0/typing_extensions-4.8.0-py3-none-any.whl",
+                    "sha256": "8f92fc8806f9a6b641eaa5318da32b44d401efaac0f6678c9bc448ba3605faa0",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "typing_extensions",
@@ -108,8 +108,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1d/66/8f42c941be949ef2b22fe905d850c794e7c170a526023612aad5f3a121ad/setuptools_scm-7.1.0-py3-none-any.whl",
-                    "sha256": "73988b6d848709e2af142aa48c986ea29592bbcfca5375678064708205253d8e",
+                    "url": "https://files.pythonhosted.org/packages/d4/73/ccf02298d1982cd27c30b3ada350d9952800a38b45bb0cbdb7c7b0110edc/setuptools_scm-8.0.1-py3-none-any.whl",
+                    "sha256": "c132f5a8dc508c8113f865c709041d1b15f7d500442220174c38397607797a91",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools_scm",
