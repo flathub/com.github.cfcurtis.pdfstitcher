@@ -1,5 +1,5 @@
 {
-    "id": "com.github.cfcurtis.pdfstitcher",
+    "id": "org.pdfstitcher.pdfstitcher",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
@@ -16,12 +16,12 @@
             "name": "python3-pdfstitcher",
             "buildsystem": "simple",
             "build-commands": [
-                "install -Dm644 pdfstitcher.svg /app/share/icons/hicolor/scalable/apps/com.github.cfcurtis.pdfstitcher.svg",
+                "install -Dm644 pdfstitcher.svg /app/share/icons/hicolor/scalable/apps/org.pdfstitcher.pdfstitcher.svg",
                 "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pdfstitcher[gui]\" --no-build-isolation"
             ],
             "post-install": [
-                "desktop-file-install --dir=/app/share/applications com.github.cfcurtis.pdfstitcher.desktop",
-                "install -Dm644 com.github.cfcurtis.pdfstitcher.metainfo.xml /app/share/metainfo/com.github.cfcurtis.pdfstitcher.metainfo.xml"
+                "desktop-file-install --dir=/app/share/applications org.pdfstitcher.pdfstitcher.desktop",
+                "install -Dm644 org.pdfstitcher.pdfstitcher.metainfo.xml /app/share/metainfo/org.pdfstitcher.pdfstitcher.metainfo.xml"
             ],
             "sources": [
                 {
@@ -42,11 +42,11 @@
                 },
                 {
                     "type": "file",
-                    "path": "com.github.cfcurtis.pdfstitcher.metainfo.xml"
+                    "path": "org.pdfstitcher.pdfstitcher.metainfo.xml"
                 },
                 {
                     "type": "file",
-                    "path": "com.github.cfcurtis.pdfstitcher.desktop"
+                    "path": "org.pdfstitcher.pdfstitcher.desktop"
                 }
             ]
         }
