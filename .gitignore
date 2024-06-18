@@ -1,2 +1,5 @@
 testbuild
 .flatpak-builder
+build-dir
+venv
+flatpak-pip-generator

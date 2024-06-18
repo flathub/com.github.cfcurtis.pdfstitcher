@@ -4,11 +4,6 @@
     "build-commands": [
         "python3 setup.py install --prefix=/app --root=/"
     ],
-    "build-options": {
-        "env": {
-            "SETUPTOOLS_USE_DISTUTILS": "stdlib"
-        }
-    },
     "sources": [
         {
             "type": "archive",
