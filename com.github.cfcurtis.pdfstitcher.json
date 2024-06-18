@@ -7,13 +7,7 @@
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
-        "--device=dri",
-        "--filesystem=xdg-documents",
-        "--filesystem=xdg-download",
-        "--filesystem=xdg-pictures",
-        "--filesystem=xdg-desktop",
-        "--filesystem=/run/media",
-        "--filesystem=/media"
+        "--filesystem=host"
     ],
     "modules": [
         "python3-pikepdf.json",
@@ -32,8 +26,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/0b/89/d1c8c9f799bbf3511bab42c4b0304e4401904748026f5e73d8d34cde9154/pdfstitcher-0.8.2.tar.gz",
-                    "sha256": "323ff395fddb0b22f5aaba1d29861e209b3944851782275e426dd06ccc32c7ba",
+                    "url": "https://files.pythonhosted.org/packages/62/42/e8e76ea7a55f057aadf4263a4fe51490b204d74cf466c860022804111f50/pdfstitcher-0.9.1.tar.gz",
+                    "sha256": "5e594525a75124e87c252b76758f1c3819135e63fd47e1aa3ca2ab7df56904ae",
                     "x-checker-data": {
                         "type": "pypi",
                         "is-main-source": true,
